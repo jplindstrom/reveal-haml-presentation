@@ -21,11 +21,11 @@ Template for creating reveal.js presentations with Haml markup.
 
 * Start the auto-builder
 
-    ./watch.pl --run=./haml-file.pl *.haml
+    ./watch-haml-files.pl
+
+    * This will rebuild all .haml files and then watch them, rebuilding them on change
 
 * Edit index.haml (or copy to another name), open the .html file in a browser.
-    * The watcher will rebuild the .html files on change
-
 * Write a kick-ass presentation!
 
 
