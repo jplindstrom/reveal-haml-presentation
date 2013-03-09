@@ -17,6 +17,7 @@ Template for creating reveal.js presentations with Haml markup.
 
         git clone git@github.com:jplindstrom/reveal-haml-presentation.git
         cd reveal-haml-presentation/
+        git submodule init
 
 ## Write Presentation
 
