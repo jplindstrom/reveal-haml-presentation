@@ -23,9 +23,12 @@ Template for creating reveal.js presentations with Haml markup.
 
     ./watch-haml-files.pl
 
-    * This will rebuild all .haml files and then watch them, rebuilding them on change
+* This will rebuild all .haml files and then watch them, rebuilding
+  them on change
 
-* Edit index.haml (or copy to another name), open the .html file in a browser.
+* Edit index.haml (or copy to another name), open the .html file in a
+  browser.
+
 * Write a kick-ass presentation!
 
 
