@@ -44,11 +44,16 @@
         text-transform: none;
       }
 
-      / Misc layout
+      /* Misc layout */
+      table.centric {
+        margin-left: auto;
+        margin-right: auto;
+      }
       table.centric td {
         vertical-align: middle;
         text-align: center;
       }
+
       .strike {
         text-decoration: line-through;
       }
@@ -72,15 +77,17 @@
         %section
           %h1 Basic markup
           %small
-            %p "On-Line Transaction Processing"
-            %p "a web-app"
+            %p Text
+            %p More text
           %p not too bad
           %aside.notes
             %ul
               %li Notes, maybe use markdown for this instead
 
         %section
-          %h2 A table, with inline styles (should maybe be in the css section)
+          %h2 A table
+          .small with inline styles
+          .small (should maybe be in the css section)
           %table.centric
             %tr
               %td(style="vertical-align: top")

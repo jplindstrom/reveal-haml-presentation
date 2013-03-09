@@ -42,11 +42,16 @@
         text-transform: none;
       }
       
-      / Misc layout
+      /* Misc layout */
+      table.centric {
+        margin-left: auto;
+        margin-right: auto;
+      }
       table.centric td {
         vertical-align: middle;
         text-align: center;
       }
+      
       .strike {
         text-decoration: line-through;
       }
@@ -71,8 +76,8 @@
         <section>
           <h1>Basic markup</h1>
           <small>
-            <p>"On-Line Transaction Processing"</p>
-            <p>"a web-app"</p>
+            <p>Text</p>
+            <p>More text</p>
           </small>
           <p>not too bad</p>
           <aside class='notes'>
@@ -82,7 +87,9 @@
           </aside>
         </section>
         <section>
-          <h2>A table, with inline styles (should maybe be in the css section)</h2>
+          <h2>A table</h2>
+          <div class='small'>with inline styles</div>
+          <div class='small'>(should maybe be in the css section)</div>
           <table class='centric'>
             <tr>
               <td style='vertical-align: top'>
