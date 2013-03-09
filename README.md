@@ -7,6 +7,7 @@ Template for creating reveal.js presentations with Haml markup.
 
 * Install Ruby
 * Install Haml
+
         sudo gem install haml
         sudo gem install redcarpet
         # possibly others
