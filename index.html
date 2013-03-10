@@ -52,6 +52,12 @@
         text-align: center;
       }
       
+      /* Styles for the specific data-state for the last slide %/
+      html.the-end .state-background {
+        background-color: rgba(0,0,0, 0.8);
+      }
+      
+      
       .strike {
         text-decoration: line-through;
       }
@@ -119,7 +125,7 @@
           <pre><code class='perl'>&nbsp;&#x000A;    print("Hello\n");&#x000A;    my $dbh = DBI->connect("dbi:...");&#x000A;&#x000A;    say "Nice one";&#x000A;&#x000A;</code></pre>
           <p>That's it</p>
         </section>
-        <section>
+        <section data-state='the-end'>
           <h1>__END__</h1>
           <br>
           <h3>Thank you!</h3>
